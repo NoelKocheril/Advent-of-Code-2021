@@ -22,7 +22,7 @@ class Solution(SolutionBase):
 
         return horPos * vertPos
 
-    def part_02(self, data: list[int], slidingWindowSize: int = 3) -> int:
+    def part_02(self, data: list[int]) -> int:
         horPos, vertPos, aim = 0, 0, 0  # initial horizontal and vertical position to 0
 
         for entry in data:

@@ -53,7 +53,6 @@ class SolutionBase(ABC):
                     style="info",
                 )
             test_counter += 1
-        print()
 
     @abstractmethod
     def part_01(self, data):
